@@ -1,0 +1,8 @@
+<UXML xmlns:ui="UnityEngine.Experimental.UIElements">
+    <ui:VisualElement name="PackageDebugUIContainer">
+      <ui:VisualElement name="PackageDebugActionContainer">
+        <ui:Button name="checkUnusedImagesInDoc" text="Check Unused Images in Doc"/>
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+</UXML>

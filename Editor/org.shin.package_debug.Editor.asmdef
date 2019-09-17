@@ -1,6 +1,8 @@
 {
     "name": "org.shin.package_debug.Editor",
-    "references": [],
+    "references": [
+        "GUID:496c4a20d83362b4bbdbfc6c12bd5b79"
+    ],
     "includePlatforms": [
         "Editor"
     ],

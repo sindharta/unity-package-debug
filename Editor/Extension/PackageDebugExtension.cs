@@ -9,7 +9,7 @@ namespace org.shin.package_debug.Editor {
 #if !UNITY_PACKAGE_MANAGER_DEVELOP_EXISTS
 #if UNITY_2019_1_OR_NEWER
 
-    [UnityEditor.InitializeOnLoad]
+[UnityEditor.InitializeOnLoad]
 internal class PackageDebugExtension : IPackageManagerExtension {
 
     public PackageDebugExtension()     {

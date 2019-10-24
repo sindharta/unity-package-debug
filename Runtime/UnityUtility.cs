@@ -1,7 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public static class UnityUtility  {
+
+    //[Note-sin: 2019-10-24] May not work for all Unity built-in coroutines
 	public static void WaitCoroutine(IEnumerator coroutineFunc) {
 		while (coroutineFunc.MoveNext ()) {
             if (null == coroutineFunc.Current)
